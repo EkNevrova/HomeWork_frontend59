@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="HW14">Practic</h1>
+  <p class="p1fromVideo">
+    <button onclick="sayHi()">Привет!</button>
+  </p>
+  <p class="p2fromVideo">
+  <div class="calc">Калькулятор</div>
+  <br />
+  <div><button onclick="action('+')">Сложение " + "</button>
+    <button onclick="action('-')">Вычитание " - "</button>
+  </div>
+  <br />
+  <div><button onclick="action('*')">Умножение " * "</button>
+    <button onclick="action('/')">Деление " / "</button>
+  </div>
+  </p>
+
+  <p class="p2fromText">
+    <button onclick="imstudy()">Hi!</button>
+  </p>
+
+  <p class="p3fromText">
+    <img id="image" src="assets/images/hi_shiba.jpg">
+  <div class="photo">
+    <button onclick="changePhoto('-')">Previous</button>
+    <button onclick="changePhoto('+')">Next</button>
+  </div>
+  </p>
+
+  <p class="***fromText">
+  <h3>Автосалон</h3>
+  <div>
+    <img class="cars" alt="audi" src="assets/images/audi.jpg">
+    <img class="cars" alt="bmw" src="assets/images/bmw.jpg">
+  </div>
+  <div class="calculateTotalPrice">
+    Количество
+    <input id="quantity" type="number" value="1">
+    Цена
+    <input id="price" type="number" value="15000000">
+  </div>
+  <br />
+  <div>
+    <button onclick="calculateTotalPrice()">Расчитать</button>
+  </div>
+  </p>
+
+
+</body>
+
+</html>
